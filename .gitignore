@@ -1,1 +1,94 @@
 .DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+env*/
+venv*/
+.venv*/
+
+# Local development settings
+.env
+.env.local
+.env.*.local
+.local/
+logs/
+*.log
+*.swp
+*.bak
+
+# Build files
+build/
+dist/
+eggs/
+*.egg-info/
+MANIFEST
+*.manifest
+*.spec
+pip-wheel-metadata/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Sphinx documentation
+docs/_build/
+doc/build/
+doc/source/api/
+
+# pytest
+pytest_cache/
+pytest_capturelog/
+pytest_debug/
+pytest_html/
+pytest_media/
+pytest_profiling/
+pytest_results/
+pytest_runtest_logtext.txt
+pytest_verbosity
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+*~
+.idea_modules/
+Thumbs.db
+Desktop.ini
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/dictionaries
+*.idea/vcs.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Flask
+instance/
+*.pyc
+*.sqlite3
+*.swp
+
+# PyCharm files
+*.pycharm.*
+*.csv
+*.xlsx
