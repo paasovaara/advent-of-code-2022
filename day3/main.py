@@ -1,6 +1,9 @@
 # This solution is 100% provided by chat-gpt 🤯
 
-def item_priority(item):
+def item_priority(item: str):
+    if not isinstance(item, str) or len(item) != 1 or not item.isascii() or not item.isalpha():
+        raise ValueError("Input must be a string of length 1 representing an ASCII letter")
+    
     """Returns the priority of an item."""
     if item.islower():
         return ord(item) - 96
